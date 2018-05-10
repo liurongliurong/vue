@@ -1,0 +1,6 @@
+@for $i from 10 to 60 by 5{
+  .mt-$i { margin-top: $(i)px; }
+  .ml-$i { margin-left: $(i)px; }
+  .mb-$i { margin-bottom: $(i)px; }
+  .mr-$i { margin-right: $(i)px; }
+}

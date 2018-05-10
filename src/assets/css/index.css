@@ -1,0 +1,87 @@
+@import './var.css';
+@import './reset.css';
+@import './marginPadding.css';
+@import './project.css';
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  min-width: var(--contentWidth);
+  font-size: 14px;
+  margin-right: calc(100% - 100vw);
+  font-family: '微软雅黑';
+}
+
+.container{
+  width: var(--contentWidth);
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6e6e6e;
+  outline: 1px solid #333;
+}
+
+.overflow{
+  // overflow: hidden;
+  &:after{
+    clear: both;
+    display: block;
+    content: ''
+  }
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.relative{
+  position: relative;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.ivu-loading-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+}
+
+.ivu-loading-bar-inner {
+  transition: width .2s linear;
+}
+
+.ivu-loading-bar-inner-color-primary {
+  background-color: #2d8cf0;
+}
+
+.ivu-loading-bar-inner-failed-color-error {
+    background-color: #ed3f14;
+}

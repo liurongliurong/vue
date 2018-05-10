@@ -1,0 +1,10 @@
+:root {
+  /* css next */
+  --mainColor: #29c086;
+  --redColor: #F52F3E;
+  --headerTopHeight: 36px;
+  --headerTopBgColor: #4a4a4a;
+  --contentWidth: 1180px;
+  --contentHorizontalPadding: 30px;
+  --contentVerticalPadding: 39px;
+}
